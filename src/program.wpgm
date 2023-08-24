@@ -1,0 +1,16 @@
+import wollok.game.*
+
+program miPrimerJuego {
+	
+	// Limites del tablero
+	game.width(12)
+	game.height(12)
+
+	// Fondo del tablero
+	
+	game.ground("paredLadrillos3.jpg")
+
+	// Arranca el juego
+	game.start()
+
+}
